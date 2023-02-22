@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
 import heroImage from "../../assets/heroImage.png";
+import { Link } from "react-router-dom"
 
 export const Hero = () => {
   return (
@@ -11,8 +12,8 @@ export const Hero = () => {
           <span>WELCOME TO</span>
           <h1 className="headline">AutoJobServe</h1>
           <div className="heroBtns">
-            <button className="p-2 me-2">Register</button>
-            <button className="p-2">Login</button>
+            <button className="p-2 me-2"><Link to="/signup">Register</Link> </button>
+            <button className="p-2"><Link to="/login">Login</Link> </button>
           </div>
         </div>
       </div>

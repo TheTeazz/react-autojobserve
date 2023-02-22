@@ -1,0 +1,41 @@
+.login{
+    background-color: #44733C;
+    height: 100vh;
+}
+.autojob{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.loginHeaderText{
+    font-size: 18px;
+    color: #ffffff;
+}
+.loginForm{
+    background-color: #ffffff;
+}
+.loginInput input{
+    border: none;
+    background-color: #D7FDD8;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+.loginInput input::placeholder{
+    font-size: 12px;
+    color: #4D624A;
+    font-weight: 500;
+}
+.signInBtn{
+    border: none;
+    background-color: #44733C;
+    color: white;
+}
+.loginCta{
+    font-size: small;
+    color: #44733C;
+    text-decoration: none;
+}
+.loginFooter{
+    color: white;
+}

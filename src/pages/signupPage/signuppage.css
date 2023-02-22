@@ -1,0 +1,35 @@
+.signup{
+    background-color: #44733C;
+    height: 100vh;
+}
+.signupHeaderText{
+    font-size: 18px;
+    color: #ffffff;
+}
+.hag{
+ 
+}
+.firstAndLastName input, .email input, .usernameAndJobTitle input, .password input, .location textarea{
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+}
+.firstAndLastName input::placeholder, .email input::placeholder, .usernameAndJobTitle input::placeholder, .password input::placeholder, .location textarea::placeholder{
+    color: #44733C;
+    font-size: small;
+    font-weight: 500;
+}
+.signupMisc button{
+    border: none;
+    background-color: #495148;
+    color: white;
+    font-size: small;
+}
+.sMiscBtn{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+.signupFooter{
+    color: white;
+}
