@@ -1,0 +1,11 @@
+.services{
+    background-color: #D9D9D9;
+    /* border: 1px solid red; */
+}
+.serviceTitle h4{
+    font-weight: 600;
+    color: #44733C;
+}
+.serve div{
+   color: #44733C;
+}

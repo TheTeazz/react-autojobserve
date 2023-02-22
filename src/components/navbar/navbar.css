@@ -1,0 +1,18 @@
+.top{
+    background-color: #D9D9D9;
+}
+.logo{
+    color: #44733C;
+}
+.navLink{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    margin: auto 5px;
+    color: #44733C;
+}
+.navBtn{
+    border: none;
+    color: white;
+    background-color: #44733C;
+}

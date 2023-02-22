@@ -1,0 +1,11 @@
+.cta{
+    background-color: #44733C;
+}
+.ctaLeft{
+    color: white;
+}
+.ctaLeft button{
+    border: none;
+    color: #44733C;
+    font-weight: 600;
+}
