@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./signuppage.css";
 import signupImg from "../../assets/signupImg.jpeg";
 
-export const Signuppage = () => {
+export const SignupPage = () => {
   return (
     <div className="signup d-flex flex-column align-items-center justify-content-between">
       <div className="col-12 d-flex justify-content-start p-2">

@@ -1,0 +1,27 @@
+.emailreset{
+    height: 100vh;
+    
+}
+.forma{
+    /* border: 1px solid red; */
+}
+.passwordResetInstruction{
+    color:  #606060;
+}
+.resetInput{
+
+}
+.resetBtn{
+    color: white;
+    background-color: #283C63;
+    border: none;
+    font-size: 12px;
+    text-decoration: none;
+}
+.returnToLogin{
+    color: #283C63;
+}
+.resetHeader{
+    color: #44733C;
+    cursor: pointer;
+}

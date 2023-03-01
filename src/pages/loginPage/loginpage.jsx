@@ -3,7 +3,7 @@ import "./loginpage.css";
 import { Link } from "react-router-dom";
 import loginImg from "../../assets/loginImg.png";
 
-export const Loginpage = () => {
+export const LoginPage = () => {
   return (
     <div className="login d-flex flex-column align-items-center justify-content-between">
       <div className="col-12 d-flex justify-content-start p-2">
@@ -46,7 +46,7 @@ export const Loginpage = () => {
 
             <div className="loginCta d-flex justify-content-between mt-4">
               <Link className="loginCta mx-4" to="/signup">Sign up</Link>
-              <Link className="loginCta mx-4" to="/">Forgot password?</Link>
+              <Link className="loginCta mx-4" to="/emailreset">Forgot password?</Link>
             </div>
           </form>
         </div>
