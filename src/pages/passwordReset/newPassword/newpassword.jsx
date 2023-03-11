@@ -19,7 +19,7 @@ export const NewPassword = () => {
         <form className="">
           <div className="d-flex flex-column mb-2 mt-4">
             <label className="npLabel" htmlFor="new password">New password</label>
-          <input className="mb-2" type="password" name="new password" id="" />
+          <input className="mb-2" type="password" name="new password"  id="" />
           <label className="npLabel" htmlFor="confirm new password">Confirm new password</label>
           <input type="password" name="confirm new password" id="" />
           <p className="newPasswordErrorMessage">New password and confirm new password do not match</p>

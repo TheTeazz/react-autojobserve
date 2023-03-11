@@ -15,7 +15,7 @@ export const Navbar = () => {
             About us
           </Link>
           <Link className="navLink">our services</Link>
-          <Link className="navLink">How it works</Link>
+          <Link className="navLink" to="/dashboard">How it works</Link>
           <button className="navBtn p-2 rounded">Contact us</button>
         </div>
       </div>
