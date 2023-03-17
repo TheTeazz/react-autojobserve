@@ -1,0 +1,29 @@
+.title, .location, .requirements{
+    font-size: 16px;
+}
+
+.title{
+    color: #44733C;
+}
+.location{
+    color: black;
+    font-weight: 600;
+}
+.applied{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+li{
+    font-size: 11px;
+}
+.details-bttn{
+    background-color: #283C63;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.sif{
+    
+}

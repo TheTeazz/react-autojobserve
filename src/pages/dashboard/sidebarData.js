@@ -7,7 +7,7 @@ export const sidebarData = [
     {
         title: "Overview",
         icon: '',
-        link: "/overview"
+        link: "/dashboard"
     },
     {
         title: "Job Matches",

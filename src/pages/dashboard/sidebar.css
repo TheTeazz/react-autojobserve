@@ -1,30 +1,29 @@
-.sidebar{
-    background-color: #44733C;
-    height: 100vh;
-  
+.sidebar {
+  background-color: #44733c;
+  height: 100vh;
 }
-.sidebarList{
-    height: auto;
-    width: 100%;
-
+.sidebarList {
+  height: auto;
+  width: 100%;
 }
-.sidebarList .low{
-list-style-type: none;
-width: 100%;
-cursor: pointer;
-color: white;
-font-size: 13px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.sidebarList .low {
+  list-style-type: none;
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.sidebarList .low:hover{
-    background-color: #20351d;
+.sidebarList .low:hover {
+  background-color: #20351d;
 }
-.sidebarList #active{
-    background-color: #20351d;
+.sidebarList #active {
+  background-color: #20351d;
 }
-.low #icon{
-    flex: 30%;
+.low #icon {
+  flex: 30%;
 }
-.low #title{
-    flex: 70%;
+.low #title {
+  flex: 70%;
 }
