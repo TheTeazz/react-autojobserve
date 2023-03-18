@@ -5,17 +5,17 @@ import "./jobmatches.css";
 
 export const JobMatches = () => {
   return (
-    <div className="d-flex col-12">
-      <div className="col-2 col-sm-1">
+    <div className="d-flex col-12 ">
+      <div className="dashboard-sidebar col-2 col-sm-1">
         <Sidebar />
       </div>
 
-      <div className="col-sm-11 col-10 p-5 p-sm-4">
+      <div className="dashboard-content col-sm-11 col-10 p-5 p-sm-4">
         <div className="mb-2">
           <b>Hi Tosin, here are some jobs recommended for you</b>
         </div>
 
-        <div className="sif d-flex justify-content-center row p-1 mt-5">
+        <div className=" d-flex justify-content-center row p-1 mt-5">
           {sidebarData.map((item, index) => {
             return (
               <div className="shadow p-3 m-1 col-md-5">

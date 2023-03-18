@@ -5,11 +5,11 @@ import "./profile.css";
 export const Profile = () => {
   return (
     <div className="d-flex col-12">
-      <div className="col-2 col-sm-1">
+      <div className="dashboard-sidebar col-2 col-sm-1">
         <Sidebar />
       </div>
 
-      <div class="prof col-sm-11 col-10 p-3 p-sm-4 d-md-flex flex-column align-items-center">
+      <div class="dashboard-content prof col-sm-11 col-10 p-3 p-sm-4 d-md-flex flex-column align-items-center">
         <div class="personal-details d-flex flex-column flex-md-row justify-content-around align-items-center rounded p-3 col-md-8">
           <div class="mx-2">
             <div class="profile-image shadow d-flex justify-content-center align-items-center mb-2">
