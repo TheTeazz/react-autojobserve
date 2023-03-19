@@ -6,7 +6,9 @@
 .fhead{
     color: #44733C;
 }
-.list a{
+
+.foot-link{
     color: #44733C;
     text-decoration: none;
+    cursor: pointer;
 }

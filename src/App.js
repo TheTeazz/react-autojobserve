@@ -12,6 +12,7 @@ import { Profile } from "./pages/dashboard/profile";
 import { AutoApply } from "./pages/dashboard/autoApply";
 import { JobMatches } from "./pages/dashboard/jobmatches";
 import { Notifications } from "./pages/notifications/notifications";
+import { Faq } from "./pages/FAQ/faq";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/auto-apply" element={<AutoApply />} />
         <Route path="/job-matches" element={<JobMatches />} />
         <Route path="/notifications" element={<Notifications />} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
     </div>
   );

@@ -6,11 +6,11 @@ import "./jobmatches.css";
 export const JobMatches = () => {
   return (
     <div className="d-flex col-12 ">
-      <div className="dashboard-sidebar col-2 col-sm-1">
+      <div className="dashboard-sidebar col-2 ">
         <Sidebar />
       </div>
 
-      <div className="dashboard-content col-sm-11 col-10 p-5 p-sm-4">
+      <div className="dashboard-content col-10 p-5 p-sm-4">
         <div className="mb-2">
           <b>Hi Tosin, here are some jobs recommended for you</b>
         </div>

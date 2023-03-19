@@ -8,11 +8,12 @@
 .testifier{
     color: #44733C;
     font-weight: 700;
+    font-size: medium;
 }
-.testTop{
+.testimonials-Top{
     border-bottom: 1px solid #8DB687;
 }
-.testBottom{
+.testimonials-Bottom p{
     font-size: 14px;
     color: #44733C;
 }

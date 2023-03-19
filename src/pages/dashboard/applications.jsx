@@ -1,20 +1,23 @@
 import React from "react";
 import { Sidebar } from "./sidebar";
 import "./applications.css";
+import { Link } from "react-router-dom";
 
 export const Applications = () => {
   return (
     <div className="d-flex col-12">
-      <div className="col-2 col-sm-1">
+      <div className="col-2">
         <Sidebar />
       </div>
 
-      <div class="col-sm-10 col-10 p-4 p-sm-3">
+      <div class="col-10 p-4 p-sm-3 mt-3">
         <div class="">
-          <div class="return">
-            <button class="btn" routerLinkActive="active">
-              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-            </button>
+          <div class="">
+            <Link class="application-go-back-link" aria-hidden="true">
+              <button class="application-go-back-btn p-2" routerLinkActive="active">
+                Go back
+              </button>
+            </Link>
           </div>
 
           <div class="px-md-5">

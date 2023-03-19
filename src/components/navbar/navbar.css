@@ -1,18 +1,21 @@
-.top{
-    background-color: #D9D9D9;
-}
-.logo{
-    color: #44733C;
+
+.navbar-logo{
+    color: white;
+    font-weight: 600;
+    font-size: large;
 }
 .navLink{
     text-decoration: none;
     list-style-type: none;
     font-size: 14px;
     margin: auto 5px;
-    color: #44733C;
+    color: white;
 }
 .navBtn{
     border: none;
-    color: white;
-    background-color: #44733C;
+    color: #44733C;
+    background-color: white;
+}
+.links{
+   
 }

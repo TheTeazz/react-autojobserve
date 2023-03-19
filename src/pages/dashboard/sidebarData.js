@@ -7,26 +7,31 @@ export const sidebarData = [
     {
         title: "Overview",
         icon: '',
-        link: "/dashboard"
+        link: "/dashboard",
+        id: 1
     },
     {
         title: "Job Matches",
         icon: <BsFillHandThumbsDownFill/>,
-        link: "/job-matches"
+        link: "/job-matches",
+        id: 2
     },
     {
         title: "Applications",
         icon: <BsChevronBarDown/>,
-        link: "/applications"
+        link: "/applications",
+        id: 3
     },
     {
         title: "Auto apply",
         icon: <BsFillBellFill/>,
-        link: "/auto-apply"
+        link: "/auto-apply",
+        id: 4
     },
     {
         title: "Profile",
         icon: <BsFillHandThumbsDownFill/>,
-        link: "/profile"
+        link: "/profile",
+        id: 5
     }
 ]

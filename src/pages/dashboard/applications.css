@@ -1,5 +1,7 @@
-.btn{
-    background-color: #D9D9D9;
+.application-go-back-btn{
+    background-color: rgb(212, 209, 209);
+    color: #44733C; 
+    border: none;
 }
 .pageDescription{
    color: #44733C; 
@@ -13,9 +15,7 @@ td:nth-child(2){
 i{
     color: #44733C;
 }
-.container-fluid{
-    
-}
+
 .paginationBtn{
     border: 1px solid #44733C;
     color: white;

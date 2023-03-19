@@ -5,9 +5,7 @@
 .navbar{
     background-color: #44733C;
 }
-.navbar-brand{
-    color: white;
-}
+
 .nav-link{
     color: white;
 }
@@ -24,7 +22,10 @@
   color: #44733c;
   cursor: pointer;
 }
-
+.notifications-logo{
+    color: white;
+    text-decoration: none;
+}
 
 /* content */
 .return{
@@ -42,10 +43,8 @@
     background-color: #498A3F;
     color: white;
 }
-.img{
-  
-}
-img{
+
+.notifications-image{
     max-width: 75%;
 }
 .fa-long-arrow-left{
@@ -78,17 +77,20 @@ img{
 
 
 /* logout styles */
-.logout-btn {
-  color: red;
-  text-decoration: none;
- font-size: 18px;
-}
-.logout-btn:hover {
-  color: red;
-  background-color: white;
-}
+
+
 
 .notifications-back-btn {
     border: 1px solid #44733C;
     color: #44733C;
 }
+.notification-sign-out{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    font-size: medium;
+}
+.notification-sign-out:hover {
+    color: white;
+    background-color: red;
+  }

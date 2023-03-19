@@ -1,20 +1,24 @@
 import React from "react";
 import { Sidebar } from "./sidebar";
 import "./autoApply.css";
+import { Link } from "react-router-dom";
 
 export const AutoApply = () => {
   return (
     <div className="d-flex col-12">
-      <div className="col-2 col-sm-1">
+      <div className="col-2">
         <Sidebar />
       </div>
 
-      <div class=" col-sm-11 col-10 px-md-5 p-4">
+      <div class="col-10 px-md-5 p-4">
         <div class="mt-3">
           <div class="return">
-            <button class="btn" routerLinkActive="active">
-              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-            </button>
+            <Link>
+         
+              <button class="btn" routerLinkActive="active">
+                Go back
+              </button>
+            </Link>
           </div>
 
           <div class=" container m-3 content">

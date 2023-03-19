@@ -6,7 +6,7 @@ export const Overview = () => {
   return (
     <div className="overview d-flex col-12">
 
-      <div className="sid col-2 col-sm-1">
+      <div className="sid col-2">
         <Sidebar></Sidebar>
       </div>
 

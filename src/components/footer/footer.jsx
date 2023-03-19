@@ -4,6 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -16,12 +17,12 @@ export const Footer = () => {
             </p>
           </div>
           <div className="list d-flex flex-column">
-            <a className="">Home</a>
-            <a className="">About us</a>
-            <a className="">Our services</a>
-            <a className="">Testimonials</a>
-            <a className="">contact us</a>
-            <a className="">FAQs</a>
+            <Link className="foot-link">Home</Link>
+            <Link className="foot-link">About us</Link>
+            <Link className="foot-link">Our services</Link>
+            <Link className="foot-link">Testimonials</Link>
+            <Link className="foot-link">contact us</Link>
+            <Link to="/faq" className="foot-link">FAQs</Link>
           </div>
         </div>
 

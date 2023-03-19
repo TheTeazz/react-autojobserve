@@ -2,28 +2,44 @@
   background-color: #44733c;
   height: 100vh;
 }
-.sidebarList {
+.sidebar-logo {
   height: auto;
   width: 100%;
+
 }
-.sidebarList .low {
+.sidebar-logo p{
+  color: white;
+  font-size: large;
+}
+.sidebar-link {
   list-style-type: none;
+  text-decoration: none;
   width: 100%;
   cursor: pointer;
-  color: white;
+
   font-size: 13px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.sidebarList .low:hover {
+.sidebar-link:hover {
+  background-color: #20351d;
+  color: white;
+}
+.active {
   background-color: #20351d;
 }
-.sidebarList #active {
-  background-color: #20351d;
-}
-.low #icon {
+
+
+.sidebar-link .icon {
   flex: 30%;
+  color: white;
 }
-.low #title {
+.sidebar-link .title {
   flex: 70%;
+  color: white;
+}
+.sidebar-logout-btn{
+  border: 1px solid white;
+  background-color: red;
+  color: white;
 }

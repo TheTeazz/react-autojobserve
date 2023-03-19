@@ -5,34 +5,23 @@ import { sidebarData } from "./sidebarData";
 
 export const Sidebar = () => {
   return (
-    <div className="sidebar">
+    <div className="sidebar p-2">
+      <div className="sidebar-logo mb-5  d-flex align-items-center justify-content-center">
+        <p>Autojobserve</p>
+      </div>
+
       {sidebarData.map((item, index) => {
         return (
-          <Link to={item.link} key={index}>
-            <div className="icon">{item.icon}</div>
-            <div className="linkText">{item.title}</div>
+          <Link to={item.link} key={item.id} className="sidebar-link d-flex ">
+            <div className="icon d-flex align-items-center justify-content-center">
+              {item.icon}
+            </div>
+            <div className="title">{item.title}</div>
           </Link>
         );
       })}
+
+      <button className="sidebar-logout-btn mt-5 p-1">Log out</button>
     </div>
   );
 };
-
-{
-  /* <li
-className="low m-0 d-flex justify-content-center align-items-center p-2"
-key={index}
-id= { window.location.pathname == item.link ? "active" : ''}
-onClick={() => {
-  window.location.pathname = item.link;
-}}
->
-<div
-  id="icon"
-  className="d-flex align-items-center justify-content-center"
->
-  {item.icon}
-</div>
-<div id="title">{item.title}</div>
-</li> */
-}
